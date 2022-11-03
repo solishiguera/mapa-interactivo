@@ -1,0 +1,35 @@
+#map { 
+  height: 500px !important; 
+}
+
+.text-input {
+  margin: 10px 0px; 
+  width: 50%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.palce { 
+  width: 200px !important;
+}
+
+button { 
+  text-decoration: none;
+  border: 0;
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+  background-color: forestgreen;
+  border-radius: 5px !important;
+  background: linear-gradient(to left, forestgreen 50%, white 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+
+button:hover { 
+  background-color: white;
+  color: black;
+  border: 2px solid forestgreen;
+  background-position: left;
+}
